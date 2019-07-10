@@ -1,0 +1,162 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Usuario_Contrasena_Correcta",
+        "description": "",
+        "id": "validar-usuario;usuario-contrasena-correcta",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 142902000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "que el tester quiere automatizar en api",
+            "match": {
+              "location": "StepDefApiUsuario.que_el_tester_quiere_automatizar_en_api()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2976065600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "se ingresa el usuario automatizacion.accenture@gmail.com y contrasena automatizacion12",
+            "match": {
+              "arguments": [
+                {
+                  "val": "automatizacion.accenture@gmail.com",
+                  "offset": 22
+                },
+                {
+                  "val": "automatizacion12",
+                  "offset": 70
+                }
+              ],
+              "location": "StepDefApiUsuario.se_ingresa_el_usuario_automatizacionaccenturegmailcom_y_contrasena_automatizacion12(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39665400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "la respuesta es igual a 200 y el parametro Key Token tenga un valor",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefApiUsuario.la_respuesta_es_igual_a_y_el_parametro_key_token_tenga_un_valor(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature1"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Usuario_Valido_Contrasena_Incorrecta",
+        "description": "",
+        "id": "validar-usuario;usuario-valido-contrasena-incorrecta",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1147900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "que el tester quiere automatizar en api",
+            "match": {
+              "location": "StepDefApiUsuario.que_el_tester_quiere_automatizar_en_api()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1516824700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "se ingresa el usuario automatizacion.accenture@gmail.com y contrasena automatizacion1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "automatizacion.accenture@gmail.com",
+                  "offset": 22
+                },
+                {
+                  "val": "automatizacion1",
+                  "offset": 70
+                }
+              ],
+              "location": "StepDefApiUsuario.se_ingresa_el_usuario_automatizacionaccenturegmailcom_y_contrasena_automatizacion12(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 975699,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "la respuesta es igual a 404 y el parametro Key Token tenga un valor",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefApiUsuario.la_respuesta_es_igual_a_y_el_parametro_key_token_tenga_un_valor(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature1"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Validar_usuario",
+    "description": "COMO usuario automatizacion.accenture@gmail.com\nQUIERO automartizar pruebas Rest API\nPARA presentar una demo",
+    "id": "validar-usuario",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/ApiUsuario.feature",
+    "tags": [
+      {
+        "name": "@Feature1",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
